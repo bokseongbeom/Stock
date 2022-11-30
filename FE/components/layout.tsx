@@ -1,4 +1,4 @@
-export default function Layout({ children }) {
+export default function Layout(children: string) {
     return (
         <>
             <div>{children}</div>
